@@ -1,0 +1,111 @@
+
+body {
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    width: 98vw;
+    height: 95vh;
+    background-size: cover;
+    background-color: var(--primary-color);
+    color: #FFF;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    display: flex;
+    margin: 65px;
+    padding-left: 25px;
+}
+
+.center-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.center-content .service-info h3 {
+    font-size: 5rem;
+    margin-top: 4.2rem;
+    margin-bottom: 2rem;
+
+}
+
+.center-content img {
+    width: 115%;
+    height: 130%;
+    padding-left: 9rem;
+    padding-top: 4rem;
+}
+
+.service-info {
+    padding: 5.2rem 5rem 5rem 10rem;
+    padding-bottom: 20.5rem;
+    margin-right: 80px;
+
+}
+
+
+
+.center-content .service-info .description {
+    font-size: 2.08rem;
+    margin-right: 13rem;
+    padding-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+#btn-register {
+    background: #FFF;
+    margin-top: 5rem;
+    color: var(--primary-color);
+    font-size: 2.2rem;
+    padding: 2rem 8rem;
+    border-radius: 50px;
+    border: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 1rem;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, .5);
+}
+
+#btn-register:hover {
+    color: #FFF;
+    background-color: var(--secondary-color);
+}
+
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 21.3rem 0rem 0;
+    align-items: center;
+    transition: border-color 0.3s; 
+}
+
+.social a {
+    border: 1px solid #fff ;
+    padding: 1.3rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #FFF;
+    margin: 0 0.93rem;
+    color: #FFF;
+    
+}
+
+.social i {
+    transition: color 0.2s ease-in-out;
+}
+
+.social a:hover{
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
